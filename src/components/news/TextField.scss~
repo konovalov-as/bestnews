@@ -2,13 +2,14 @@
   display: flex;
   position: relative;
   margin: 20px 0;
+  flex-direction: column;
 
   &.full-width {
     width: 100%;
   }
 
   &__wrap {
-    width: 100^;
+    width: 100%;
     position: relative;
     border: 1px solid #cccccc;
     border-radius: 4px;

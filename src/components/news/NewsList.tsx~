@@ -23,7 +23,7 @@ const NewsList = () => {
           return;
         }
 
-        const response = await fetch('news.json');
+        const response = await fetch('../public/news.json');
         const initialNews: INews[] = await response.json();
         setNews(initialNews);
         localStorage.setItem(KEY_NEWS, JSON.stringify(initialNews));
